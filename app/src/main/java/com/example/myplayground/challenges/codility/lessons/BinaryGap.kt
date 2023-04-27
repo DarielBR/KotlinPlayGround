@@ -1,3 +1,10 @@
+/**
+ * Write a function:
+ *             fun solution(N: Int): Int
+ * that, given a positive integer N, returns the length of its longest binary gap.
+ * The function should return 0 if N doesn't contain a binary gap.
+ */
+
 package com.example.myplayground.challenges.codility.lessons
 
 fun solution(N: Int): Int{

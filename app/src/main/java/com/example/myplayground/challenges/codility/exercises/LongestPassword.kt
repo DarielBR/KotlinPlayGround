@@ -1,3 +1,11 @@
+/**
+ * Write a function:
+ *      fun solution(S: String): Int
+ * that, given a non-empty string S consisting of N characters,
+ * returns the length of the longest word from the string that is a valid password.
+ * If there is no such word, your function should return −1.
+ */
+
 package com.example.myplayground.challenges.codility
 
 fun solution(S: String): Int{

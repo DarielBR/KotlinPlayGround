@@ -1,5 +1,10 @@
-package com.example.myplayground.challenges.codility.exercises
+/**
+ * Write a function:
+ *      fun solution(A: IntArray): Int
+ * that, given a non-empty array A consisting of N integers, returns the maximum depth of water.
+ */
 
+package com.example.myplayground.challenges.codility.exercises
 
 fun solution(A: IntArray): Int{
     var maxDepth = 0
