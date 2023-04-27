@@ -10,17 +10,14 @@ fun solution(S: String): Int{
         var validCandidate = true
         val space = " "
 
-        var debugCurrentChar = S[0]
-        var debugModNumbers: Int
-        var debugModLetters: Int
-
         var i = 0
         while(i < modS.length){
-            debugCurrentChar = modS[i]
+
             if(modS[i] == space[0]){
-                debugModNumbers = numbers.mod(2)
-                debugModLetters = letters.mod(2)
-                if(validCandidate && letters.mod(2) == 0 && numbers.mod(2) !=0 && longestPassword.length <= bufferPassword.length){
+                if(validCandidate
+                    && letters.mod(2) == 0
+                    && numbers.mod(2) !=0
+                    && longestPassword.length <= bufferPassword.length){
                     longestPassword = bufferPassword
                 }
                 bufferPassword = ""
