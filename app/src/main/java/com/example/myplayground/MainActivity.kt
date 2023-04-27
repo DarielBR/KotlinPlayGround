@@ -3,8 +3,7 @@ package com.example.myplayground
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
-import com.example.myplayground.challenges.coderbyte.QuestionsMarks
-import com.example.myplayground.challenges.codility.solution
+import com.example.myplayground.challenges.codility.exercises.solution
 import com.example.myplayground.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -26,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         val textView: TextView = binding.textView
-        textView.text = solution("thebestpasswordever 12345").toString()
+        textView.text = solution(intArrayOf(77,0,0,0,0,1,0,2,3,4,1,0,0,60)).toString()
     }
 
 }
