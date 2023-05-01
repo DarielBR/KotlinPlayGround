@@ -3,7 +3,8 @@ package com.example.myplayground
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
-import com.example.myplayground.challenges.codility.lessons.solution
+import com.example.myplayground.challenges.codility.lessons.practice
+
 
 import com.example.myplayground.databinding.ActivityMainBinding
 
@@ -26,7 +27,17 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         val textView: TextView = binding.textView
-        textView.text = solution(77).toString()
+        val powersOfTwo: MutableList<Int> = mutableListOf()
+        var i = 0
+        val two = 2
+        while(i < 100){
+            powersOfTwo.add(Math.pow(2.0,i.toDouble()).toInt())
+            powersOfTwo.add(Math.pow(2.0,i.toDouble()).toInt())
+            powersOfTwo.add(Math.pow(2.0,i.toDouble()).toInt())
+            powersOfTwo.add(Math.pow(2.0,i.toDouble()).toInt())
+            i++
+        }
+        textView.text = practice(intArrayOf(),100).contentToString()
     }
 
 }
