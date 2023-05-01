@@ -3,6 +3,9 @@ package com.example.myplayground
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
+import com.example.myplayground.challenges.codility.lessons.oddOccurrenceInArray3
+import com.example.myplayground.challenges.codility.lessons.oddOccurrencesInArray
+import com.example.myplayground.challenges.codility.lessons.oddOccurrencesInArray2
 import com.example.myplayground.challenges.codility.lessons.practice
 
 
@@ -37,7 +40,7 @@ class MainActivity : AppCompatActivity() {
             powersOfTwo.add(Math.pow(2.0,i.toDouble()).toInt())
             i++
         }
-        textView.text = practice(intArrayOf(),100).contentToString()
+        textView.text = oddOccurrenceInArray3(intArrayOf(9,3,9,7,9,7,10,11,10,11,56,45,56,45,87,89,87,89,9,1,3,101,101)).toString()
     }
 
 }
