@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
 import com.example.myplayground.challenges.codility.lessons.frogJump
+import com.example.myplayground.challenges.codility.lessons.permMissingElem
 
 
 import com.example.myplayground.databinding.ActivityMainBinding
@@ -37,7 +38,7 @@ class MainActivity : AppCompatActivity() {
             powersOfTwo.add(Math.pow(2.0,i.toDouble()).toInt())
             i++
         }
-        textView.text = frogJump(10,85,30).toString()
+        textView.text = permMissingElem(intArrayOf(2,3,1,5)).toString()
     }
 
 }
