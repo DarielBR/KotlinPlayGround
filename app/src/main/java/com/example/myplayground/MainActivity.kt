@@ -3,8 +3,9 @@ package com.example.myplayground
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
-import com.example.myplayground.challenges.codility.lessons.frogJump
-import com.example.myplayground.challenges.codility.lessons.permMissingElem
+import com.example.myplayground.challenges.codility.lessons.tapeEquilibrium
+import com.example.myplayground.challenges.codility.lessons.tapeEquilibrium1
+import com.example.myplayground.challenges.codility.lessons.tapeEquilibrium2
 
 
 import com.example.myplayground.databinding.ActivityMainBinding
@@ -38,7 +39,7 @@ class MainActivity : AppCompatActivity() {
             powersOfTwo.add(Math.pow(2.0,i.toDouble()).toInt())
             i++
         }
-        textView.text = permMissingElem(intArrayOf(2,3,1,5)).toString()
+        textView.text = tapeEquilibrium(intArrayOf(3,1,2,4,3)).toString()
     }
 
 }
