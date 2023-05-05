@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
 import com.example.myplayground.challenges.codility.lessons.frogRiverOne
+import com.example.myplayground.challenges.codility.lessons.permCheck
 
 import com.example.myplayground.databinding.ActivityMainBinding
 
@@ -36,7 +37,7 @@ class MainActivity : AppCompatActivity() {
             powersOfTwo.add(Math.pow(2.0,i.toDouble()).toInt())
             i++
         }
-        textView.text = frogRiverOne(5, intArrayOf(1,3,1,4,2,3,5,4)).toString()
+        textView.text = permCheck(intArrayOf(4,1,3)).toString()
     }
 
 }
