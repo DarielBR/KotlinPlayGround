@@ -3,6 +3,7 @@ package com.example.myplayground
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
+import com.example.myplayground.challenges.coderbyte.toSnakeCase
 import com.example.myplayground.challenges.codility.lessons.frogRiverOne
 import com.example.myplayground.challenges.codility.lessons.permCheck
 
@@ -37,7 +38,7 @@ class MainActivity : AppCompatActivity() {
             powersOfTwo.add(Math.pow(2.0,i.toDouble()).toInt())
             i++
         }
-        textView.text = permCheck(intArrayOf(4,1,3)).toString()
+        textView.text = toSnakeCase("a b c d e f%g")
     }
 
 }
