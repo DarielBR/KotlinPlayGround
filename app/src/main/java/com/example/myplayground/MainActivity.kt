@@ -6,11 +6,13 @@ import android.widget.TextView
 import com.example.myplayground.challenges.coderbyte.belongsToFibonacci
 import com.example.myplayground.challenges.coderbyte.toSnakeCase
 import com.example.myplayground.challenges.codility.lessons.frogRiverOne
+import com.example.myplayground.challenges.codility.lessons.maxCounters
 import com.example.myplayground.challenges.codility.lessons.permCheck
 
 import com.example.myplayground.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+
     var entries = arrayOf("arrb6???4xxbl5???eee5",
                                 "aa6?9",
                                 "acc?7??sss?3rr1??????5",
@@ -39,7 +41,7 @@ class MainActivity : AppCompatActivity() {
             powersOfTwo.add(Math.pow(2.0,i.toDouble()).toInt())
             i++
         }
-        textView.text = belongsToFibonacci(6)
+        textView.text = maxCounters(5,intArrayOf(3,4,4,6,1,4,4)).toList().toString()
     }
 
 }
