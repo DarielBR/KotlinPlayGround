@@ -7,6 +7,7 @@ import com.example.myplayground.challenges.coderbyte.belongsToFibonacci
 import com.example.myplayground.challenges.coderbyte.toSnakeCase
 import com.example.myplayground.challenges.codility.lessons.frogRiverOne
 import com.example.myplayground.challenges.codility.lessons.maxCounters
+import com.example.myplayground.challenges.codility.lessons.missingInteger
 import com.example.myplayground.challenges.codility.lessons.permCheck
 
 import com.example.myplayground.databinding.ActivityMainBinding
@@ -41,7 +42,7 @@ class MainActivity : AppCompatActivity() {
             powersOfTwo.add(Math.pow(2.0,i.toDouble()).toInt())
             i++
         }
-        textView.text = maxCounters(5,intArrayOf(3,4,4,6,1,4,4)).toList().toString()
+        textView.text = missingInteger(intArrayOf(-1000000,1000000)).toString()
     }
 
 }
