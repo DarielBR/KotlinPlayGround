@@ -2,6 +2,7 @@ package com.example.myplayground.challenges.codility.tests
 
 inline fun simple(x: Int): Int{return x*x}
 
+/*
 fun getUserName(userId: Int): String{
     val userDao = UserDao()
     val user = userDao.getUserById(userId)
@@ -22,4 +23,4 @@ class Repository (
             }
         }
     }
-}
+}*/
