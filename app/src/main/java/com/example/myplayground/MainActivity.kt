@@ -3,6 +3,7 @@ package com.example.myplayground
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
+import com.example.myplayground.challenges.codility.lessons.lesson5.countDiv
 import com.example.myplayground.challenges.codility.tests.missingSmallestInteger
 import com.example.myplayground.challenges.codility.tests.simple
 
@@ -23,7 +24,8 @@ class MainActivity : AppCompatActivity() {
             simple(count)
         }
 
-        textView.text = missingSmallestInteger(intArrayOf(-1,-3)).toString()
+        //textView.text = missingSmallestInteger(intArrayOf(-1,-3)).toString()
+        textView.text = countDiv(0,0,11).toString()
     }
 
 }
