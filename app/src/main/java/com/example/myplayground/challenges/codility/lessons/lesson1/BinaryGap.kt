@@ -5,7 +5,7 @@
  * The function should return 0 if N doesn't contain a binary gap.
  */
 
-package com.example.myplayground.challenges.codility.lessons
+package com.example.myplayground.challenges.codility.lessons.lesson1
 
 fun solution(N: Int): Int{
     val binaryNForm = Integer.toBinaryString(N)

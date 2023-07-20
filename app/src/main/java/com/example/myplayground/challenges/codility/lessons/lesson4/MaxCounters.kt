@@ -1,4 +1,4 @@
-package com.example.myplayground.challenges.codility.lessons
+package com.example.myplayground.challenges.codility.lessons.lesson4
 
 fun maxCounters(N: Int, A: IntArray): IntArray{
     val counters = IntArray(N){0}

@@ -1,4 +1,4 @@
-package com.example.myplayground.challenges.codility.lessons
+package com.example.myplayground.challenges.codility.lessons.lesson5
 
 fun passingCars(A: IntArray): Int {
     var goingEast = 0 // count of zeros (cars traveling east)

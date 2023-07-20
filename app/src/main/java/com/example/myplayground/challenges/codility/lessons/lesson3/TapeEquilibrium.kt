@@ -5,7 +5,7 @@
  * returns the minimal difference that can be achieved.
  */
 
-package com.example.myplayground.challenges.codility.lessons
+package com.example.myplayground.challenges.codility.lessons.lesson3
 
 import kotlin.math.abs
 

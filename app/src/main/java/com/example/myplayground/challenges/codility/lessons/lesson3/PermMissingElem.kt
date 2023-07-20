@@ -4,7 +4,7 @@
  * that, given an array A, returns the value of the missing element.
  */
 
-package com.example.myplayground.challenges.codility.lessons
+package com.example.myplayground.challenges.codility.lessons.lesson3
 
 fun permMissingElem(A: IntArray): Int{
     return ((A.size + 1L) * (A.size + 2L) / 2L - A.sum().toLong()).toInt()

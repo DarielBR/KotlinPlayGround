@@ -4,7 +4,7 @@
  * that, given an array A, returns 1 if array A is a permutation and 0 if it is not.
  */
 
-package com.example.myplayground.challenges.codility.lessons
+package com.example.myplayground.challenges.codility.lessons.lesson4
 
 fun permCheck(A: IntArray): Int{
     val counters = IntArray(A.size)

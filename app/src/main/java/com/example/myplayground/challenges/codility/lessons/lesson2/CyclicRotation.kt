@@ -5,7 +5,7 @@
  * returns the array A rotated K times.
  */
 
-package com.example.myplayground.challenges.codility.lessons
+package com.example.myplayground.challenges.codility.lessons.lesson2
 
 fun practice(A: IntArray, K: Int): IntArray{
     return if(A.isEmpty()) intArrayOf() else {

@@ -4,7 +4,7 @@
  *that, given three integers X, Y and D, returns the minimal number of jumps from position X
  *to a position equal to or greater than Y.
  */
-package com.example.myplayground.challenges.codility.lessons
+package com.example.myplayground.challenges.codility.lessons.lesson3
 
 fun frogJump(X: Int, Y: Int, D: Int): Int{
 

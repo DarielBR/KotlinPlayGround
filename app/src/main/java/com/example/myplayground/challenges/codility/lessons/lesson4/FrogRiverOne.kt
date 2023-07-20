@@ -5,7 +5,7 @@
  *returns the earliest time when the frog can jump to the other side of the river.
  */
 
-package com.example.myplayground.challenges.codility.lessons
+package com.example.myplayground.challenges.codility.lessons.lesson4
 
 fun frogRiverOne(X: Int, A: IntArray): Int{
     val counters = IntArray(X)//array of counters leaves falling into positions from 1 to 5

@@ -1,4 +1,4 @@
-package com.example.myplayground.challenges.codility.lessons
+package com.example.myplayground.challenges.codility.lessons.lesson4
 
 fun missingInteger(A: IntArray): Int{
     val counters = IntArray(1000000){0}
