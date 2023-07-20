@@ -12,12 +12,12 @@
 package com.example.myplayground.challenges.codility.lessons.lesson5
 
 fun countDiv(A: Int, B: Int, K: Int): Int{
-    if (A == B){
-        if(B.mod(K)==0) return 1
-        else return 0
+    return  if (A == B){
+        if(B.mod(K)==0) 1
+        else 0
     }
     else {
-        if(A==0) return B / K + 1
-        else return B / K - (A - 1) / K
+        if(A==0) B / K + 1
+        else B / K - (A - 1) / K
     }
 }
