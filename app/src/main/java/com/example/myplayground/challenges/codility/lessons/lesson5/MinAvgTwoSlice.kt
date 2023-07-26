@@ -47,10 +47,13 @@ fun minAvgTwoSlice(A: IntArray): Int{
                     state = 2
                 }
                 2 -> {
+                    prefixSum -= A[initialPosition]
                     initialPosition++
+                    state = 1
+                    /*initialPosition++
                     finalPosition = initialPosition + 1
                     prefixSum = if(finalPosition < A.size) A[initialPosition] + A[finalPosition] else A[initialPosition]
-                    state = 1
+                    state = 1*/
                 }
             }
             val sliceSize = finalPosition - initialPosition + 1 //"... (notice that the slice contains at least two elements)."
