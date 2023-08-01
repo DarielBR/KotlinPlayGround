@@ -7,8 +7,8 @@ import com.example.myplayground.challenges.codility.lessons.lesson5.countDiv
 import com.example.myplayground.challenges.codility.lessons.lesson5.genomicRangeQuery
 import com.example.myplayground.challenges.codility.lessons.lesson5.minAvgTwoSlice
 import com.example.myplayground.challenges.codility.lessons.lesson6.maxProductOfThree
+import com.example.myplayground.challenges.codility.lessons.lesson6.numberOfDiscIntersections
 import com.example.myplayground.challenges.codility.lessons.lesson6.triangle
-import com.example.myplayground.challenges.codility.lessons.lesson6.triangle2
 import com.example.myplayground.challenges.codility.tests.missingSmallestInteger
 import com.example.myplayground.challenges.codility.tests.simple
 
@@ -37,7 +37,9 @@ class MainActivity : AppCompatActivity() {
         //textView.text = maxProductOfThree(intArrayOf(-3,1,2,-2,5,6)).toString()
         //textView.text = maxProductOfThree(intArrayOf(-5,5,-5,4)).toString()
         //textView.text = triangle(intArrayOf(10,2,5,1,8,20)).toString()
-        textView.text = triangle(intArrayOf(10,50,5,1,3)).toString()
+        //textView.text = triangle(intArrayOf(10,50,5,1,3)).toString()
+        //textView.text = numberOfDiscIntersections(intArrayOf(1,5,2,1,4,0)).toString()
+        textView.text = numberOfDiscIntersections(intArrayOf(1,2147483647,0)).toString()
     }
 
 }
